@@ -1,3 +1,7 @@
+#!/bin/bash
+
+TERM=xterm
+
 GOCMD=go
 GOBUILD=GOOS=darwin $(GOCMD) build
 GOCLEAN=$(GOCMD) clean
