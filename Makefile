@@ -14,7 +14,7 @@ all: clean buildUI build
 clean: 
 	@echo ""
 	@echo "Deleting Previous package..."
-	rm -fr static/
+	rm -fr static/ webapp
 
 buildUI: 
 	@echo ""
