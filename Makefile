@@ -12,7 +12,6 @@ BINARY_NAME=webapp
 all: clean buildUI build
 
 clean: 
-	clear
 	@echo ""
 	@echo "Deleting Previous package..."
 	rm -fr static/
